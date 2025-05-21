@@ -1,31 +1,75 @@
- user scenarios based on the user stories derived from the use case diagram. These scenarios are written from the perspective of a software development team preparing to implement features in an Airbnb-like platform.
+# Airbnb Clone - User Stories
 
-✅ 1. Guest User – Search for Properties
-Title: Property Search Functionality
-Actor: Guest User
-Scenario:
-A guest user visits the platform without logging in. They navigate to the property search page and enter a destination, check-in and check-out dates, and the number of guests. The system filters the available properties based on the criteria and displays a list of matching results. The user can view details of each property and proceed to check availability or make a booking.
+This document focuses on the primary user stories which are based upon the system’s use case diagram. Stories describes the activities users perform with Airbnb Clone’s backend.  
 
-✅ 2. Guest User – Make a Booking
-Title: Booking a Property
-Actor: Guest User
-Scenario:
-After finding a suitable property, the guest user selects the dates, reviews the total price, and clicks "Book Now." The system prompts the user to log in or provide guest information. Once payment details are submitted and verified, the booking is confirmed, and the user receives a confirmation email and receipt.
+---  
+  
+### 1. User Registration  
+  
+**As a Guest or a Host,**  
 
-✅ 3. Host – List a New Property
-Title: Listing a New Property
-Actor: Host
-Scenario:
-A registered host logs in and navigates to the "List a Property" section. The host fills out a form with property details, including title, description, location, amenities, photos, and availability. Once submitted, the system validates the input and creates a new listing. The property becomes visible to guest users during searches.
+I want to register for an account,  
 
-✅ 4. Host – Manage Property Availability
-Title: Managing Availability
-Actor: Host
-Scenario:
-The host accesses the "Manage Availability" section from their dashboard. A calendar interface displays the booked and available dates. The host selects specific dates to block or unblock availability. Upon saving, the system updates the listing so it reflects the changes in future guest searches.
+so that i am able to book or list properties on the platform.  
 
-✅ 5. Admin – View Payment History
-Title: Viewing Payment History
-Actor: Admin
-Scenario:
-An admin logs in and accesses the admin dashboard. From there, they select "View Payment History." The system displays a searchable table of all transactions including booking ID, user, host, amount, date, and payment status. The admin can filter by date range, user, or property to investigate specific transactions.
+---  
+
+### 2. Booking a Property  
+
+**As a Guest,**  
+
+I want to book a property for a specific set of dates,  
+
+so that I can secure accommodation.  
+  
+---  
+  
+### 3. Listing a Property  
+
+**As a Host,**  
+
+I want to be able to add and edit my property listings,  
+
+so that they are available for booking by our guests.  
+
+---  
+   
+### 4. Making Payments  
+  
+**As a Guest,**  
+  
+I want to easily and securely pay for my bookings through a payment gateway,  
+
+so that the reservation is confirmed and my host is paid.
+
+---
+
+### 5. Handling Reservations  
+
+**In the capacity of a host,**  
+
+I would like to see and have the option to cancel bookings for my properties,  
+
+to control the calendar and manage my responsiveness towards guest inquiries.  
+
+---
+
+### 6. Submitting a Review  
+
+**In this case, I am a guest and**  
+
+I want to submit a review after the experience,  
+
+to inform other users about their possible future encounter with the property.  
+
+---
+
+### 7. Admin Supervision  
+
+**In the case of an admin, I want**  
+
+to supervise users, their listings, and the business dealings,  
+
+to ensure the system is safe and properly maintained.
+
+---
